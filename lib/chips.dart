@@ -34,7 +34,7 @@ class _ActionChipExampleState extends State<ActionChipExample> {
       body: Center(
         child: ActionChip(
           avatar: Icon(favorite ? Icons.favorite : Icons.favorite_border),
-          label: const Text('Save to favorites'),
+          label: const Text(' to favorites'),
           onPressed: () {
             setState(() {
               favorite = !favorite;
